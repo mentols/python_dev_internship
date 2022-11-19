@@ -80,5 +80,3 @@ def get_score(game_stamps, offset):
 
 
 game_stamps = generate_game()
-TEST_STAMP_3 = []
-print(get_score(TEST_STAMP_3, 0))

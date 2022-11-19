@@ -81,15 +81,3 @@ class TestGetScoreFunction(unittest.TestCase):
     def test_get_score_with_uncorrect_parameters(self):
         with self.assertRaises(TypeError):
             get_score()
-
-
-if __name__ == '__main__':
-    import sys
-    import csv
-    import operator
-    reader = csv.reader(open("../python_dev/task3/allurls.csv"), delimiter=",")
-    for product_url, price in reader:
-
-        print(product_url)
-        # sortedlist = sorted(reader, key=operator.itemgetter(1), reverse=True)
-    unittest.main()
